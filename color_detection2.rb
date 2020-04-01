@@ -1,5 +1,8 @@
 require 'opencv'
+require './display_window'
+
 include OpenCV
+include DisplayWindow
 
 # 赤、青、緑を検出する
 # ref: https://algorithm.joho.info/programming/python/opencv-color-detection/
